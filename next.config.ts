@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/church-clarity",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
