@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { churchData } from "@/lib/church-data";
 
 // ─── Score badge config ───────────────────────────────────────────────────────
@@ -251,12 +252,12 @@ export default function V1Page() {
         <div className="max-w-3xl mx-auto px-4 h-14 flex items-center justify-between">
           <span className="text-sm font-bold tracking-tight text-gray-900">Church Clarity</span>
           {/* gray-600 on white = 5.74:1 ✓ */}
-          <a
+          <Link
             href="/"
             className="text-xs text-gray-600 hover:text-gray-900 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-500 rounded"
           >
             ← Back to search
-          </a>
+          </Link>
         </div>
       </nav>
 

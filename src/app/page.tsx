@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
@@ -8,7 +10,7 @@ export default function Home() {
         </div>
 
         <div className="space-y-4">
-          <a
+          <Link
             href="/v1"
             className="group block bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-md hover:border-gray-300 transition-all px-6 py-5"
           >
@@ -29,9 +31,9 @@ export default function Home() {
               <span className="text-xs bg-gray-100 text-gray-600 border border-gray-200 px-2 py-0.5 rounded-full">Plain-language summaries</span>
               <span className="text-xs bg-amber-50 text-amber-700 border border-amber-200 px-2 py-0.5 rounded-full">Why Unclear? callout</span>
             </div>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/v2"
             className="group block bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-md hover:border-gray-300 transition-all px-6 py-5"
           >
@@ -52,9 +54,9 @@ export default function Home() {
               <span className="text-xs bg-gray-100 text-gray-600 border border-gray-200 px-2 py-0.5 rounded-full">Position vs Clarity split</span>
               <span className="text-xs bg-gray-100 text-gray-600 border border-gray-200 px-2 py-0.5 rounded-full">Clarity meter visual</span>
             </div>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/v3"
             className="group block bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-md hover:border-gray-300 transition-all px-6 py-5"
           >
@@ -75,7 +77,7 @@ export default function Home() {
               <span className="text-xs bg-gray-100 text-gray-600 border border-gray-200 px-2 py-0.5 rounded-full">Position vs Clarity</span>
               <span className="text-xs bg-gray-100 text-gray-600 border border-gray-200 px-2 py-0.5 rounded-full">No spectrum</span>
             </div>
-          </a>
+          </Link>
         </div>
 
         <p className="text-xs text-center text-gray-400 mt-6">
